@@ -9,7 +9,7 @@ int main() {
 	cout << " lower = lower" << endl;
 	cout << " lower * (lower+k) = hasil_1" << endl;
 	cout << " lower * (lower+k) * (lower+2k) = hasil_2" << endl;
-	cout << " lower * (lower+k) * (lower+2k) * (lower+3k) = hasil_3" << endl;
+	cout << " lower * (lower+k) * (lower+2k) * (lower+3k) = hasil_3" << endl << " ... " <<endl;
 	cout << " lower * (lower+k) * (lower+2k) * (lower+3k) * ... * (lower+n*k) = hasil_n" << endl;
 	cout << " note: integer lower, k, m > 0 " <<endl;
 	cout << " . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . " <<endl<<endl;
