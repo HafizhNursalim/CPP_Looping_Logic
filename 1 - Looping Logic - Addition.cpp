@@ -12,17 +12,18 @@ int main() {
 	cout << " value = value " << endl;
 	cout << " note: integer 0 < k < value ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ ^ ~ . ~ " <<endl<<endl;
 	
-    int value, k; // Inisialisasi nilai variable yang diperlukan ========
-    // Input nilai variable dari user ::::::::::::::::::::::::::::::::::
+    int value, k; // Inisialisasi nilai variable yang diperlukan ====================
+    // Input nilai variable dari user :::::::::::::::::::::::::::::::::::::::::::::::
     cout << "Masukkan nilai awal integer (value) : ";
     cin >> value;
-    cout << "Masukkan nilai integer dari kelipatan (k) : ";
+    cout << "Masukkan nilai integer kelipatan (k) : ";
     cin >> k;
-    // =================================================================
+    // =============================================================================
+    
     cout << "\n Hasil Penjumlahan Program C++ " << endl;
     for (int i= value%k ; i <= value ; i+=k) {	// Perulangan Baris (i : angka terakhir dari penjumlahan setiap baris)
 		int sum = 0;
-        for (int j=value ; j>=i ; j-=k) { 		// Perulangan Penjumlahan (j: angka angka penjumlahan kiri pada setiap baris)
+        for (int j=value ; j>=i ; j-=k) { 		// Perulangan Penjumlahan (j: angka angka penjumlahan dari kiri ke kanan pada setiap baris)
             cout << j;
             sum += j;
             if (j != i) {
@@ -33,4 +34,3 @@ int main() {
     }
     return 0;
 }
-
